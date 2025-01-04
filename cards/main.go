@@ -5,7 +5,7 @@ import "fmt"
 var deckSize int
 
 func main() {
-	cards := []string{"Ace of Diamonds", newCard()}
+	cards := []string{"Ace of Diamond", newCard()}
 	cards = append(cards, "Six of Spades")
 
 	for i, card := range cards {
