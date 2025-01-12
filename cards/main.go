@@ -4,6 +4,7 @@ var deckSize int
 
 func main() {
 	cards := newDeckFromFile("my_deck")
+	cards.shuffle()
 	cards.print()
 	//cards := newDeck()
 	//cards.saveToFile("my_deck")
